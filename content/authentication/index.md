@@ -1,5 +1,6 @@
 ---
-title: Authentication
+title: Authentication documentation
+shortTitle: Authentication
 intro: 'Keep your account and data secure with features like {% ifversion not ghae %}two-factor authentication, {% endif %}SSH{% ifversion not ghae %},{% endif %} and commit signature verification.'
 redirect_from:
   - /categories/56/articles
@@ -21,9 +22,9 @@ versions:
 introLinks:
   overview: /authentication/keeping-your-account-and-data-secure/about-authentication-to-github
 featuredLinks:
-  guides:
+  startHere:
     - /authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-    - /authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+    - /authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
     - /authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication
     - '{% ifversion ghae %}/authentication/keeping-your-account-and-data-secure/updating-your-github-access-credentials{% endif %}'
   popular:
@@ -51,6 +52,7 @@ topics:
 children:
   - /keeping-your-account-and-data-secure
   - /securing-your-account-with-two-factor-authentication-2fa
+  - /authenticating-with-a-passkey
   - /authenticating-with-saml-single-sign-on
   - /connecting-to-github-with-ssh
   - /troubleshooting-ssh

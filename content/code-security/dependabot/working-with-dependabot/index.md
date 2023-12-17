@@ -5,7 +5,7 @@ intro: 'Guidance and recommendations for working with {% data variables.product.
 versions:
   fpt: '*'
   ghec: '*'
-  ghes: '>3.2'
+  ghes: '*'
 topics:
   - Repositories
   - Dependabot
@@ -17,8 +17,10 @@ children:
   - /managing-pull-requests-for-dependency-updates
   - /automating-dependabot-with-github-actions
   - /keeping-your-actions-up-to-date-with-dependabot
-  - /managing-encrypted-secrets-for-dependabot
+  - /configuring-access-to-private-registries-for-dependabot
+  - /guidance-for-the-configuration-of-private-registries-for-dependabot
+  - /removing-dependabot-access-to-public-registries
+  - /viewing-dependabot-job-logs
   - /troubleshooting-the-detection-of-vulnerable-dependencies
   - /troubleshooting-dependabot-errors
 ---
-
